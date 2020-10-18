@@ -2,13 +2,14 @@ body {
   height: 100%;
   width: 100%;
   border: 2px solid lightgray;
+  margin: 0;
 }
 
 .main-container {
   display: grid;
   grid-template-columns: 25% 75%;
-  grid-template-rows: 0.2fr 0.1fr 0.2fr 0.275fr; 
-  margin: 2%;
+  grid-template-rows: 0.2fr 0.1fr 0.1fr;
+  background-color: lightgray;
 }
 
 .top-container {
@@ -19,7 +20,8 @@ body {
   column-gap: 100px;
   line-height: 60px;
   font-family: "Lobster", cursive;
-  font-size: 30px;
+  font-size: 50px;
+  background-color: lightgray;
 }
 header {
   border-bottom: 3px groove lightgray;
