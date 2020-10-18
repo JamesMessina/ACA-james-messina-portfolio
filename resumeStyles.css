@@ -1,0 +1,133 @@
+body {
+  height: 100%;
+  width: 100%;
+  border: 2px solid lightgray;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 0.2fr 0.1fr 0.2fr 0.275fr; 
+  margin: 2%;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  column-gap: 100px;
+  line-height: 60px;
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+header {
+  border-bottom: 3px groove lightgray;
+}
+
+.title {
+  line-height: 40px;
+  letter-spacing: 10px;
+  font-size: 35px;
+  margin-left: 5px;
+  font-family: "Teko", sans-serif;
+}
+
+.mission-statement {
+  font-size: 30px;
+  word-spacing: 5px;
+  line-height: 30pt;
+  font-family: "Inconsolata", monospace;
+  margin-top: 3%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: linear-gradient(blue, lightblue);
+  width: 250px;
+}
+
+.contact-info > h2 {
+  letter-spacing: 5px;
+  padding-top: 100px;
+  border-bottom: 2px solid black;
+  border-length: 5px;
+}
+
+.contact-info > p > span {
+  color: white;
+  font-size: 20px;
+}
+
+.areas-of-expertise > h1 {
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 20pt;
+  padding-top: 5pt;
+}
+
+.areas-of-expertise > p {
+  font-family: "Inconsolata", monospace;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.empty-space {
+  grid-column: 1/2;
+  grid-row: 3/6;
+  background-color: lightblue;
+  width: 250px;
+}
+
+.areas-of-expertise > h2 {
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 20pt;
+  padding-top: 5pt;
+}
+
+.areas-of-expertise > h3 {
+  padding-top: 20px;
+  font-size: 15pt;
+  word-spacing: 2px;
+}
+
+.areas-of-expertise > h4 {
+  word-spacing: 10px;
+  font-style: italic;
+}
+
+.areas-of-expertise > ul {
+  font-family: "Inconsolata", monospace;
+  font-size: 20pt;
+  line-height: 1.8;
+}
+
+.education-history > h2 {
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 20pt;
+  padding-top: 5pt;
+}
+
+.education-history > h3 {
+  padding-top: 35px;
+  font-size: 15pt;
+  word-spacing: 2px;
+}
+
+.education-history > h4 {
+  word-spacing: 10px;
+  font-style: italic;
+}
+
+.education-history > ul {
+  font-family: "Inconsolata", monospace;
+  font-size: 20pt;
+  line-height: 1.4;
+}
