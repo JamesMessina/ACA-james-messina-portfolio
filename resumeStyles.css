@@ -1,8 +1,6 @@
 body {
-  height: 100%;
-  width: 100%;
   border: 2px solid lightgray;
-  margin: 0;
+  margin: 5px;
 }
 
 .main-container {
@@ -55,7 +53,6 @@ header {
   letter-spacing: 5px;
   padding-top: 100px;
   border-bottom: 2px solid black;
-  border-length: 5px;
 }
 
 .contact-info > p > span {
