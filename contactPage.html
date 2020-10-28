@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact-styles.css">
+    <title>Contact Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+       <img src=https://cdn.evbuc.com/eventlogos/188084824/acastandardcirclefullname.png class="image" alt="austin coding logo">
+       <nav>
+           <a href="./index.html">Home</a>
+           <a href="./resume.html">Resume</a>
+           <a href="./aboutPage.html">About Me</a>
+           <a href="">Blog</a>
+       </nav>
+   </header> 
+   <main>
+     <section class="contact-me">
+       <h1>contact me.</h1>
+       <h2>I have a lot to offer!</h2>
+     </section>
+     <section>
+         <form action="results.html" method="get" target="_blank">
+             <div>
+                 <label for="name">Name:</label><br>
+                 <input type="text" id="name" name="whole_name" placeholder="name">
+             </div>
+             <div>
+                 <br><label for="email">E-Mail:</label><br>
+                 <input type="email" id="email" name="email" placeholder="cyber-name" required>
+             </div>
+             <div>
+                 <p>How did you hear about me?</p>
+                 <input type="checkbox" id="source1" name="source1" value="classmate">
+                 <label for="source1">Classmate</label><br>
+                 <input type="checkbox" id="source2" name="source2" value="resume">
+                 <label for="source2">Resume Submission</label><br>
+                 <input type="checkbox" id="source3" name="source3" value="linkedin">
+                 <label for="source3">LinkedIn</label><br>
+                 <input type="checkbox" id="source4" name="source4" value="codingrep">
+                 <label for="source4">Coding Academy Recruiter</label>
+             </div>
+             <div class="radio">
+                 <p>Would you like to be contacted back?</p>
+                 <input type="radio" id="yes" name="choice1" value="yes">
+                 <label for="yes">Yes</label><br>
+                 <input type="radio" id="no" name="choice2" value="no">
+                 <label for="no">No</label>
+             </div>
+             <div>
+                 <br><label for="birthday"> Would you like a Happy Birthday wish from me?</label>
+                 <input type="date" id="birthday" name="birthday">
+             </div>
+             <div>
+                 <br><label for="questionsOrComments">Questions or Comments?</label><br>
+                 <textarea id="questionsOrComments" name="questionsOrComments" placeholder="comments" minlength="20" maxlength="500" rows="4" cols="50"></textarea>
+             </div>
+             <button type="reset">Reset</button>
+             <button type="submit">Submit</button>
+         </form>
+     </section>
+   </main>
