@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./resume-interactive.js"></script>
   <link rel="stylesheet" href="./resumeStyles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Teko:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
@@ -13,11 +14,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Resume</title>
 </head>
-
 <body>
   <header class="top-container">
-    <img src="https://i2.wp.com/www.colombotelegraph.com/wp-content/uploads/2012/12/John-Lennon.jpg?fit=1200%2C900&ssl=1" alt="john lennon" height="200px" width="275px">
-    <h1 class="name">John Lennon</h1>
+    <div class="picture-continer">
+      <img id="john-lennon-pic" onmouseenter="disappear()" onmouseout="reappear()" src="https://i2.wp.com/www.colombotelegraph.com/wp-content/uploads/2012/12/John-Lennon.jpg?fit=1200%2C900&ssl=1" alt="john lennon" height="200px" width="275px">
+    </div>
+    <div class="animation-container">
+      <h1 id="name" onclick="fadeIn()" class="animate__animated.animate__fadeIn">JohnLennon</h1>
+    </div>
   </header>
   <main>
     <div class="main-container">
@@ -30,7 +34,9 @@
       <section class="contact-info">
         <h2>Contact <br>Info</h2>
         <p><i class="material-icons">settings_phone</i></p>
-        <p>201-783-0336</p>
+        <div class="phone-container">
+          <p class="animate__animated.animate__fadeIn" id="number" onclick="fadeNumberIn()">201-783-0336</p>
+        </div>
         <br>
         <br>
         <span class="material-icons">pin_drop</span>

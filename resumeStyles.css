@@ -21,6 +21,7 @@ body {
   font-size: 50px;
   background-color: lightgray;
 }
+
 header {
   border-bottom: 3px groove lightgray;
 }
@@ -129,4 +130,18 @@ header {
   font-family: "Inconsolata", monospace;
   font-size: 20pt;
   line-height: 1.4;
+}
+
+.animate__animated {
+  animation: fadeIn 10s;
+  animation-duration:10s;
+}
+
+.animate__fadeIn {
+  animation: fadeIn 10s;
+  animation-timing-function: ease-in;
+}
+
+#number{
+  opacity: 0;
 }

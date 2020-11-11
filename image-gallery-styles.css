@@ -3,7 +3,7 @@ header{
     font-size: 35px;
     margin-bottom: 100px;
     margin-top: 20px; 
-   }
+  }
   
   body{
       margin: auto;
@@ -84,6 +84,7 @@ header{
         grid-template-rows: 50% 50%;
     }
   }
+}
 
 
   
